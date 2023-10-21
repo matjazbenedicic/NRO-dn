@@ -17,5 +17,11 @@ function plot_random_points
 
     plot(tocke_lok(1, :), tocke_lok(2, :), 'k', 'LineWidth', 2); 
 
+    axis equal;
+    title('Naključno generirane točke');
+    legend('Znotraj krožnice', 'Izven krožnice');
+    xlabel('x os');
+    ylabel('y os');
+
     hold off;
 end
